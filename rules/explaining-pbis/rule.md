@@ -32,7 +32,6 @@ Generally, you want to follow these 4 steps when demonstrating your PBI's to you
 * Show the new feature to reinforce the value that we are gaining.
 * Ask for any feedback on the current feature
 
-
 ::: greybox
 Example PBI:
 Policy Form - Show the Policy Owner
