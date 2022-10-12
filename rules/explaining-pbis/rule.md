@@ -12,14 +12,9 @@ Explaining PBI's to our Product Owner is an important part of the process of get
 
 <!--endintro-->
 
-
-
-
-
 It is like taking your car to the mechanic and them telling you all of the things they had to do to fix your car. But you don't really need to know and just want to drive off in a working car.
 
 ### Follow the Zoom-in and out rule
-
 
 We have a rule on how to structure your explanations - https://www.ssw.com.au/rules/zooming-in-and-out
 
@@ -38,17 +33,12 @@ Generally, you want to follow these 4 steps when demonstrating your PBI's to you
 * Ask for any feedback on the current feature
 
 
-
-
 ::: greybox
 Example PBI:
-Canvas app - Initial load performance is too slow
+Policy Form - Show the Policy Owner
 :::
 
 ::: greybox
-
-
-
 For this I had to do an extra join to the Member table from the ClientLink table where the link reason was PO which means Policy Owner, and then from there I could join the Client table to that ClientLink record to get the Policy Owner name.
 Here is what that looks like.
 :::
@@ -57,10 +47,6 @@ Figure: Bad example - we are mentioning all these tables that are not necessary 
 :::
 
 ::: greybox
-
-
-Good example:
-
 In some cases the Policy Owner could be a Super Fund so our users needed to know if the policy owner was the Life Insured individual or whether it is a Super Fund.
 This was the policy screen before and we can't see who the Policy Owner is.
 Now here is the new form where we are showing the Policy Owner and the users can even click through to the Owner if they need any other details.
